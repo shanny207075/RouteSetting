@@ -34,9 +34,12 @@ route print
 
 192.168.aa.aa為內網(無線) Gateway
 
-建立一個bat檔，電腦重啟後，設定會還原。
+建立一個bat檔，若電腦重啟後設定會還原。
 
 表示10.0.0.0、172.16.0.0、192.168.0.0網段會走有內網的gateway，其餘的網段會走外網
+
+![](./images/routeSetting-if18.png)
+
 ```Groovy
 route add 10.0.0.0 mask 255.0.0.0 192.168.aa.aa IF 18
 route add 172.16.0.0 mask 255.240.0.0 192.168.aa.aa IF 18
