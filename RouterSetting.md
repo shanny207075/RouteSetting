@@ -1,4 +1,4 @@
-# Route Setting
+# Router Setting
 
 ### **雙網卡同時連線設定**
 
