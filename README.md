@@ -1,9 +1,9 @@
-# Route Setting
+# Router Setting
 
 ### **雙網卡同時連線設定**
 
 ### cmd
-
+ 
     route print
 
 - **連不到內網，試著重啟該檔案，有可能interface跑掉。**
