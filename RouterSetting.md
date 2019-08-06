@@ -68,15 +68,17 @@ route add 192.168.0.0 mask 255.255.0.0 192.168.aa.aa IF 18
               192.168.0.0      255.255.0.0      10.24.aa.aa          10.24.bb.bb    36
                 224.0.0.0        240.0.0.0            在連結上         127.0.0.1     331
 ```
-18 為無線網卡的interface
+10 為無線網卡的interface(Realtek USB FE Family Controller)
 
-172.20.aa.aa為外網(有線) Gateway
+172.20.aa.aa為外網(無線) Gateway
 
-192.168.aa.aa為內網(無線) Gateway
+192.168.aa.aa為內網(有線) Gateway
 
 建立一個bat檔，電腦重啟後，設定會還原。
 
-表示10.0.0.0、172.16.0.0、192.168.0.0網段會走內網的gateway，其餘的網段會走外網
+![](./images/routeSetting-if10.png)
+
+上圖的10.0.0.0、172.16.0.0、192.168.0.0網段會走內網的gateway，其餘的網段會走外網
 ```Groovy
 route add 10.0.0.0 mask 255.0.0.0 10.24.aa.aa IF 10
 route add 172.16.0.0 mask 255.240.0.0 10.24.aa.aa IF 10
