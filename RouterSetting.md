@@ -72,7 +72,7 @@ route add 192.168.0.0 mask 255.255.0.0 192.168.aa.aa IF 18
 
 172.20.aa.aa為外網(無線) Gateway
 
-192.168.aa.aa為內網(有線) Gateway
+10.24.aa.aa為內網(有線) Gateway
 
 建立一個bat檔，電腦重啟後，設定會還原。
 
