@@ -28,7 +28,7 @@ route print
                 10.24.0.0      255.255.0.0            在連結上       10.24.xx.xx    291
         ===========================================================================
 ```
-18 為無線網卡的interface (Intel(R) Dual Band Wireless-AC 8265)
+18 為內網無線網卡的interface (Intel(R) Dual Band Wireless-AC 8265)
 
 172.20.aa.aa為外網(有線) Gateway
 
@@ -36,7 +36,7 @@ route print
 
 建立一個bat檔，若電腦重啟後設定會還原。
 
-![](./images/routeSetting-if18.png)
+![](./images/routeSettingif18.png)
 
 上圖的10.0.0.0、172.16.0.0、192.168.0.0網段會走內網的gateway，其餘的網段會走外網
 
@@ -68,7 +68,7 @@ route add 192.168.0.0 mask 255.255.0.0 192.168.aa.aa IF 18
               192.168.0.0      255.255.0.0      10.24.aa.aa          10.24.bb.bb    36
                 224.0.0.0        240.0.0.0            在連結上         127.0.0.1     331
 ```
-10 為無線網卡的interface (Realtek USB FE Family Controller)
+10 為內網無線網卡的interface (Realtek USB FE Family Controller)
 
 172.20.aa.aa為外網(無線) Gateway
 
