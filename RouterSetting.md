@@ -68,7 +68,7 @@ route add 192.168.0.0 mask 255.255.0.0 192.168.aa.aa IF 18
               192.168.0.0      255.255.0.0      10.24.aa.aa          10.24.bb.bb    36
                 224.0.0.0        240.0.0.0            在連結上         127.0.0.1     331
 ```
-10 為無線網卡的interface(Realtek USB FE Family Controller)
+10 為無線網卡的interface (Realtek USB FE Family Controller)
 
 172.20.aa.aa為外網(無線) Gateway
 
