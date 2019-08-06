@@ -15,7 +15,7 @@
          14...f8 34 41 24 14 46 ......Microsoft Wi-Fi Direct Virtual Adapter #2
          20...c2 d0 12 b8 4b 36 ......Apple Mobile Device Ethernet
          10...00 e0 4c 36 1d 7a ......Realtek USB FE Family Controller #2
-         ***18...f8 34 41 24 14 45 ......Intel(R) Dual Band Wireless-AC 8265***
+         18...f8 34 41 24 14 45 ......Intel(R) Dual Band Wireless-AC 8265
          17...f8 34 41 24 14 49 ......Bluetooth Device (Personal Area Network)
           1...........................Software Loopback Interface 1
         ===========================================================================
