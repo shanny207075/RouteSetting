@@ -37,6 +37,7 @@ Lambda與一般函數不同的是，Lambda並不需要替函數命名(如F(X) = 
       System.out.print(s);
     }
 ```
+    
     如果要走訪一個Map更麻煩，可能要寫成這樣：
 ```Java
     Set<String> keySet = map.keySet();
@@ -44,6 +45,7 @@ Lambda與一般函數不同的是，Lambda並不需要替函數命名(如F(X) = 
         System.out.print(s + ":" + map.get(s));
     }
 ```
+    
     若改以Lambda來走訪這些Collection，可以簡化成這樣：
 ```Java
    list.forEach(s -> System.out.print(s));
@@ -66,6 +68,7 @@ Lambda與一般函數不同的是，Lambda並不需要替函數命名(如F(X) = 
 	list2.add("7");
 	list2.forEach(s -> System.out.print(s));
 ```
+   
     以上會輸出「127」
 
 - map ⇒ List中的物件轉換
