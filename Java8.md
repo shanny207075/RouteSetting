@@ -136,6 +136,5 @@ Lambda與一般函數不同的是，Lambda並不需要替函數命名(如F(X) = 
     Map<String, List<MfAcctDtlInqRsp>> groupedList = 
                                        resultList
                                       .stream()
-                                      .collect(Collectors
-                                      .groupingBy(MfAcctDtlInqRsp::getTrnDtYYYY));
+                                      .collect(Collectors.groupingBy(MfAcctDtlInqRsp::getTrnDtYYYY));
 ```
