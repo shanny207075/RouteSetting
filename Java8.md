@@ -11,9 +11,9 @@ Lambda與一般函數不同的是，Lambda並不需要替函數命名(如F(X) = 
 
 - Stream 使用說明
 
-    在新的Java 8中，Collection提供了**stream()**方法，可以對集合做一些過濾和基本運算，而且這個當然也是有經過效能優化過的。
+    在新的Java 8中，Collection提供了<font color=red>stream()</font>方法，可以對集合做一些過濾和基本運算，而且這個當然也是有經過效能優化過的。
 
-    除了**stream()**方法外還有**parallelStream()**方法，可以讓Collection各別針對它的entry另開出一個Thread，進行stream提供的運算，讓多核心的CPU資源更能有效的被利用。
+    除<font color=red>stream()</font>方法外還有<font color=red>parallelStream()</font>方法，可以讓Collection各別針對它的entry另開出一個Thread，進行stream提供的運算，讓多核心的CPU資源更能有效的被利用。
 
 - Stream 流中的匹配查找方法
 
